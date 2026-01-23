@@ -3,13 +3,13 @@
 ## Bug Details
 - **Bug ID:** BUG-003
 - **Module:** Wishlist / Favorites
-- **Project:** AJIO Web – E-commerce Purchase Flow (https://www.ajio.com/)
+- **Project:** AJIO Web – E-commerce Purchase Flow 
 
 ## Description
 When a logged-in user adds a product to the wishlist from the Product Detail Page (PDP), the product is correctly marked as wishlisted, and the wishlist state persists across navigation and re-login. However, when navigating to the Wishlist page via the heart icon, the page displays an empty state message instead of the wishlisted product.
 
 ## Environment
-- Application: AJIO Web
+- Application: AJIO Web (https://www.ajio.com/)
 - Browser: Chrome v121
 - OS: Windows 10
 - User Type: Logged-in user
