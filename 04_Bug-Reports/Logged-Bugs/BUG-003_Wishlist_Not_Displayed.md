@@ -1,0 +1,51 @@
+# Wishlisted products not displayed on Wishlist page despite being added successfully
+
+## Bug Details
+- **Bug ID:** BUG-003
+- **Module:** Wishlist / Favorites
+- **Project:** AJIO Web – E-commerce Purchase Flow (Portfolio Project)
+
+## Description
+When a logged-in user adds a product to the wishlist from the Product Detail Page (PDP), the product is correctly marked as wishlisted and the wishlist state persists across navigation and re-login. However, upon navigating to the Wishlist page using the heart icon, the Wishlist page incorrectly displays an empty state message instead of showing the wishlisted product.
+
+## Environment
+- Application: AJIO Web
+- Browser: Chrome v121
+- OS: Windows 10
+- User Type: Logged-in user
+
+## Preconditions
+- User is logged in
+- Product is available in stock
+- Wishlist is initially empty
+
+## Steps to Reproduce
+1. Search for any product and open its Product Detail Page (PDP)
+2. Click on **Save to Wishlist** and observe the confirmation message
+3. Verify that the wishlist button changes to **Remove from Wishlist**
+4. Click on the **Wishlist (heart) icon** in the header
+5. Observe the Wishlist page content
+
+## Expected Result
+- The product added to wishlist should be displayed on the Wishlist page
+- Wishlist page should reflect the same wishlist state shown on PDP
+
+## Actual Result
+- Wishlist page displays the message **“Your Wishlist is empty!!”**
+- Wishlisted product is not displayed, even though PDP shows **Remove from Wishlist**
+
+## Severity
+High
+
+## Priority
+High
+
+## Impact
+- User loses trust in the Wishlist feature
+- Saved products appear lost
+- Core e-commerce functionality is broken
+- Blocks further actions such as removing items or adding products to cart from Wishlist
+
+## Attachments
+- 📹 Video Evidence: (link to be added)
+- 🖼️ Screenshots: (link to be added)
