@@ -3,10 +3,10 @@
 ## Bug Details
 - **Bug ID:** BUG-003
 - **Module:** Wishlist / Favorites
-- **Project:** AJIO Web – E-commerce Purchase Flow (Portfolio Project)
+- **Project:** AJIO Web – E-commerce Purchase Flow (https://www.ajio.com/)
 
 ## Description
-When a logged-in user adds a product to the wishlist from the Product Detail Page (PDP), the product is correctly marked as wishlisted and the wishlist state persists across navigation and re-login. However, upon navigating to the Wishlist page using the heart icon, the Wishlist page incorrectly displays an empty state message instead of showing the wishlisted product.
+When a logged-in user adds a product to the wishlist from the Product Detail Page (PDP), the product is correctly marked as wishlisted, and the wishlist state persists across navigation and re-login. However, when navigating to the Wishlist page via the heart icon, the page displays an empty state message instead of the wishlisted product.
 
 ## Environment
 - Application: AJIO Web
@@ -27,7 +27,7 @@ When a logged-in user adds a product to the wishlist from the Product Detail Pag
 5. Observe the Wishlist page content
 
 ## Expected Result
-- The product added to wishlist should be displayed on the Wishlist page
+- The product added to the wishlist should be displayed on the Wishlist page
 - Wishlist page should reflect the same wishlist state shown on PDP
 
 ## Actual Result
@@ -44,8 +44,10 @@ High
 - User loses trust in the Wishlist feature
 - Saved products appear lost
 - Core e-commerce functionality is broken
-- Blocks further actions such as removing items or adding products to cart from Wishlist
+- Blocks further actions such as removing items or adding products to the cart from the Wishlist
 
 ## Attachments
-- 📹 Video Evidence: (link to be added)
-- 🖼️ Screenshots: (link to be added)
+- 📹 Video Evidence (Google Drive): [View Video](https://drive.google.com/file/d/1ANM2A43rIOQdeg7o0nplRVN8cEKVheAq/view?usp=drive_link)
+- 🖼️ PDP shows wishlisted state: [View Screenshot](../../07_Test-Evidence/BUG-003/BUG-003_PDP_Wishlisted_State.png)
+- 🖼️ Wishlist page empty state: [View Screenshot](../../07_Test-Evidence/BUG-003/BUG-003_Wishlist_Empty_State.png)
+
