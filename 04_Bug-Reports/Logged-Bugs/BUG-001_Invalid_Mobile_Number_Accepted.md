@@ -45,3 +45,7 @@ High
 - Invalid mobile numbers are accepted silently
 - User flow is incorrectly branched
 - Can lead to invalid user onboarding and data integrity issues
+
+## Attachments
+- 🖼️ Invalid mobile number entered: [View Screenshot](../../07_Test-Evidence/BUG-001/BUG-001_Invalid_Mobile_Number_Entered.png)
+- 🖼️ User navigated to Registration screen: [View Screenshot](../../07_Test-Evidence/BUG-001/BUG-001_Navigated_To_Registration_For_Invalid_Number.png)
