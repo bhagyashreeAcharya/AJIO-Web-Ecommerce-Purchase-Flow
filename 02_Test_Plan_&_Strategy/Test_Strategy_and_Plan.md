@@ -113,19 +113,18 @@ Defined Rules:
 
 - Must be exactly 10 digits  
 - Must start with 6, 7, 8, or 9  
-- Country code handled internally  
+- Country code (+91) is handled internally by the system (India-only implementation).
 
-Boundary values tested:
+Boundary values tested (3-Point BVA):
 
-Lower boundary:
-- 5999999999 → Rejected (invalid lower boundary)
-- 6000000000 → Accepted (lower valid boundary)
-- 6000000001 → Accepted (just above lower boundary)
+5999999999 → System should reject the number (below valid start range)
+6000000000 → System should accept the number (lower valid boundary)
+6000000001 → System should accept the number (just above lower boundary)
 
-Upper boundary:
-- 9999999998 → Accepted (just below upper boundary)
-- 9999999999 → Accepted (upper valid boundary)
-- 10000000000 → Rejected (invalid upper boundary – exceeds 10 digits)
+9999999998 → System should accept the number (just below upper boundary)
+9999999999 → System should accept the number (upper valid boundary)
+10000000000 → System should reject the number (exceeds 10 digits)
+
 
 Additional validations:
 
