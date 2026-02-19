@@ -81,15 +81,12 @@ Current coverage status is clearly defined below.
 - Real payment gateway integration
 - Mobile application testing
 - Security penetration testing
-- Performance testing (handled in separate project)
+- Performance testing 
 
 ---
 
-## Out of Scope
+## Assumptions
 
-- Admin panel functionality
-- Backend database-level validation
-- Real payment gateway integration
-- Mobile application testing
-- Security penetration testing
-- Performance testing (handled in separate project)
+- OTP validity is assumed to be 10 minutes.
+- System uses server-side OTP validation.
+- Payment flow is simulated up to logical confirmation.
