@@ -46,7 +46,7 @@ The project covers complete purchase flow validation from user registration to a
 - Cart hover behavior
 - Proceed to Bag navigation
 
-Remaining flows (Checkout, Payment, Order Confirmation) are being developed in parallel.
+Remaining flows (Checkout, Payment, Order Confirmation) are structured and documented but under progressive implementation.
 
 ---
 
