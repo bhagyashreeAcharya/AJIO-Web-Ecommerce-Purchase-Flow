@@ -41,7 +41,7 @@ Overall execution indicates high functional stability across critical purchase f
 
 ## Execution Status Distribution
 
-![Test Execution Status Distribution (Till US17)](assets/AJIO_Test_Execution_Pie_US17.png)
+![Test Execution Status Distribution](assets/AJIO_Test_Execution_Pie.png)
 
 ---
 
