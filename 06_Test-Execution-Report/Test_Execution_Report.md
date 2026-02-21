@@ -1,6 +1,8 @@
 # Test Execution Report  
 AJIO Web Purchase Flow – Functional Testing
 
+**Note:** This execution report reflects test coverage completed up to User Story US17 (Product Purchase – Add to Bag). Subsequent epics are planned for future phases.
+
 ---
 
 ## 1. Execution Overview
@@ -37,7 +39,9 @@ Overall execution indicates high functional stability across critical purchase f
 - Failed cases were isolated to validation-specific edge conditions.
 - Blocked cases were environment-dependent and outside tester control.
 
-(A pie chart representing Pass / Fail / Blocked distribution may be included in the Excel dashboard.)
+## Execution Status Distribution
+
+![Test Execution Status Distribution (Till US17)](assets/AJIO_Test_Execution_Pie_US17.png)
 
 ---
 
