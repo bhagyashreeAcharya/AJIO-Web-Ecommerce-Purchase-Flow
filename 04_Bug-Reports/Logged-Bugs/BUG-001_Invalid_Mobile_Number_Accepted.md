@@ -1,4 +1,4 @@
-# Invalid lower boundary mobile number is accepted without validation at authentication entry point
+# BUG-001 – Invalid Lower Boundary Mobile Number Accepted at Authentication Entry Point
 
 ## Bug Details
 - **Bug ID:** BUG-001
