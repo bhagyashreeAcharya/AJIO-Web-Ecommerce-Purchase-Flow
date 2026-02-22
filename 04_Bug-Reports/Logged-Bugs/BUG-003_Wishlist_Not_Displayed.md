@@ -1,4 +1,4 @@
-# Wishlisted products not displayed on Wishlist page despite being added successfully
+# BUG-003 : Wishlisted products not displayed on Wishlist page despite being added successfully 
 
 ## Bug Details
 - **Bug ID:** BUG-003
