@@ -1,4 +1,4 @@
-# Thumbnail images not loading for newly added product accessed via “What’s New” sort
+# BUG-002 : Thumbnail images Fail to load for newly added product accessed via “What’s New” sort
 
 ## Bug Details
 - **Bug ID:** BUG-002
